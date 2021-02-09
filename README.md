@@ -7,14 +7,14 @@ Project to test spark code.
 
 ## Pre Requisite
 
-docker
+docker  
 docker-compose
 
 ## Build platform
 
 Docker compose is based on 2 repositories.
 
-https://github.com/bitnami/bitnami-docker-spark
+https://github.com/bitnami/bitnami-docker-spark  
 https://github.com/big-data-europe/docker-spark
 
 ```
