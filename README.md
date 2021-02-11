@@ -3,6 +3,15 @@
 
 Project to test spark code.
 
+# Design
+
+## Network
+
+Below will be image of network architecture when containers are deployed using docker-compose.
+Ip address might vary depending on your environment.
+
+[](imgs/network.png)
+
 # Deploy
 
 ## Pre Requisite
@@ -21,6 +30,26 @@ https://github.com/big-data-europe/docker-spark
 docker-compose up -d
 ```
 
-## Deploy code
+## Deploy
 cd $APP_DIR
 make deploy NAME=NAME_OF_APP
+
+## History server
+```
+start-history-server.sh --properties-file spark-history-server.conf
+```
+
+## How to make dependencies
+```
+pip install -t deps MODULES
+cd deps
+zip deps.zip .
+```
+
+# Spark Benchmark
+
+I have my docker installed as below filesystem condition.
+[](imgs/dockerroot.png)
+
+[TODO] Below will be sample result for spark benchmarking.
+
