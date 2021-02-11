@@ -1,0 +1,4 @@
+FROM docker.io/bitnami/spark:3-debian-10
+
+USER 0
+RUN /opt/bitnami/python/bin/pip3 install boto3
