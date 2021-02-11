@@ -51,5 +51,8 @@ zip deps.zip .
 I have my docker installed as below filesystem condition.
 ![](imgs/dockerroot.png)
 
-[TODO] Below will be sample result for spark benchmarking.
+Below will be sample result for spark benchmarking.
 
+|App Name|Description|Executor Cpus|Executore Memory|Duration|
+|-----|--------|-------------|----------------|--------|
+|s3connect|Upload PNG imgs from hdfs to S3|1|1G||
