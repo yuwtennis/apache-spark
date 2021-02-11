@@ -10,7 +10,7 @@ Project to test spark code.
 Below will be image of network architecture when containers are deployed using docker-compose.
 Ip address might vary depending on your environment.
 
-[](imgs/network.png)
+![](imgs/network.png)
 
 # Deploy
 
