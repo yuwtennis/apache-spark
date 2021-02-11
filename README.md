@@ -49,7 +49,7 @@ zip deps.zip .
 # Spark Benchmark
 
 I have my docker installed as below filesystem condition.
-[](imgs/dockerroot.png)
+![](imgs/dockerroot.png)
 
 [TODO] Below will be sample result for spark benchmarking.
 
