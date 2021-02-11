@@ -52,4 +52,6 @@ Below will be sample result for spark benchmarking.
 
 |App Name|Description|DataSet|Number of Datasets|Dataset size|Executor Cpus|Executore Memory|Duration|
 |-----|--------|-------------|----------------|--------|
-|s3connect|Upload jpg imgs from hdfs to S3|[Landsat8](https://registry.opendata.aws/landsat-8/)|35193(*_small.jpg)|2907B - 18969B|1|1G||
+|s3connect|Upload jpg imgs from hdfs to S3|[Landsat8](https://registry.opendata.aws/landsat-8/)|35193(*_small.jpg)|2907B - 18969B|1|1G|4.0h|
+|s3connect|Upload jpg imgs from hdfs to S3|[Landsat8](https://registry.opendata.aws/landsat-8/)|35193(*_small.jpg)|2907B - 18969B|2|1G|2.5h|
+|s3connect|Upload jpg imgs from hdfs to S3|[Landsat8](https://registry.opendata.aws/landsat-8/)|35193(*_small.jpg)|2907B - 18969B|3|1G|1.6h|
