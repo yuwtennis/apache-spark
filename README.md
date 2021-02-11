@@ -16,15 +16,12 @@ Ip address might vary depending on your environment.
 
 ## Pre Requisite
 
-docker  
-docker-compose
+I have tested this repos on below container platform.
+
+* docker 19.03.5 
+* docker-compose 1.25.0, build 0a186604
 
 ## Build platform
-
-Docker compose is based on 2 repositories.
-
-https://github.com/bitnami/bitnami-docker-spark  
-https://github.com/big-data-europe/docker-spark
 
 ```
 docker-compose up -d
