@@ -1,7 +1,7 @@
 
 # Overview
 
-Project to test spark code.
+Project to test spark code. Please refer to task.py for per application conditions.
 
 # Design
 
@@ -14,7 +14,7 @@ Ip address might vary depending on your environment.
 
 # Deploy
 
-## Pre Requisite
+## Prerequisite
 
 I have tested this repos on below container platform.
 
