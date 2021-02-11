@@ -50,6 +50,6 @@ I have my docker installed as below filesystem condition.
 
 Below will be sample result for spark benchmarking.
 
-|App Name|Description|Number of Datasets|Dataset size|Executor Cpus|Executore Memory|Duration|
+|App Name|Description|DataSet|Number of Datasets|Dataset size|Executor Cpus|Executore Memory|Duration|
 |-----|--------|-------------|----------------|--------|
-|s3connect|Upload jpg imgs from hdfs to S3|35193|2907B - 18969B|1|1G||
+|s3connect|Upload jpg imgs from hdfs to S3|[Landsat8](https://registry.opendata.aws/landsat-8/)|35193(*_small.jpg)|2907B - 18969B|1|1G||
