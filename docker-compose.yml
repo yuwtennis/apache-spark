@@ -18,29 +18,11 @@ services:
       - '8080:8080'
     networks:
       - dev
-  spark-worker-1:
+  spark-worker:
     image: spark:dev
     build:
       context: .
       dockerfile: Dockerfile.spark
-    container_name: spark-worker-1
-    environment:
-      - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark://spark-master:7077
-      - SPARK_WORKER_MEMORY=1G
-      - SPARK_WORKER_CORES=1
-      - SPARK_RPC_AUTHENTICATION_ENABLED=no
-      - SPARK_RPC_ENCRYPTION_ENABLED=no
-      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
-      - SPARK_SSL_ENABLED=no
-    networks:
-      - dev
-  spark-worker-2:
-    image: spark:dev
-    build:
-      context: .
-      dockerfile: Dockerfile.spark
-    container_name: spark-worker-2
     environment:
       - SPARK_MODE=worker
       - SPARK_MASTER_URL=spark://spark-master:7077

@@ -24,7 +24,7 @@ I have tested this repos on below container platform.
 ## Build platform
 
 ```
-docker-compose up -d
+docker-compose up --scale spark-worker=NUM_OF_WORKERS -d
 ```
 
 ## Deploy
